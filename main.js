@@ -145,8 +145,6 @@ function flipCard(e) {
     this.className = this.className+" active";
     */
 
-
-
     //ovaj uslov mi je pravio problem, morao sam da ogranicim da ne moze da se okrece vise od jedne karte 
     if(twoFlipped.length < 2 && !this.classList.contains('active')){
         // 5.novi nacin dodavanja klasa u element tj objekat, znaci za svaku kliknutu kockicu dodajemo novu klasu active pored postojece card na taj objekat, koja rotira kliknutu kockicu  
